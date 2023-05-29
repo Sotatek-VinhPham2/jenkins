@@ -11,7 +11,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("Sotatek-VinhPham2/jenkins")
+        app = docker.build("jenkins")
     }
 
     stage('Test image') {
